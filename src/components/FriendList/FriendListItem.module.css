@@ -1,0 +1,26 @@
+.item {
+  width: 200px;
+  padding: 5px 10px;
+  display: flex;
+  align-items: center;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+.item + .item {
+  margin-top: 10px;
+}
+.status {
+  width: 20px;
+  height: 20px;
+  background-color: tomato;
+  border-radius: 50%;
+}
+.statusActive {
+  background-color: green;
+}
+.avatar {
+  margin: 0 10px;
+}
+.name {
+  font-size: 24px;
+  font-weight: 500;
+}

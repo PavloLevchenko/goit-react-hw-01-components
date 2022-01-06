@@ -1,0 +1,26 @@
+.transactionHistory {
+  width: 500px;
+  text-align: center;
+  border: none;
+  border-collapse: collapse;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+.transactionHead {
+  color: #fff;
+  background-color: #0ac6ff;
+  text-transform: uppercase;
+}
+.transactionRow:nth-of-type(even) {
+  background-color: rgb(220, 225, 226);
+}
+.transactionCell,
+.transactionHeadCell {
+  padding: 10px 0;
+}
+.transactionCell + .transactionCell,
+.transactionHeadCell + .transactionHeadCell {
+  border-left: 1px solid rgba(220, 225, 226, 0.5);
+}
+.transactionCell:first-child {
+  text-transform: capitalize;
+}
